@@ -1,0 +1,32 @@
+.PersonajePage {
+    width: 100%;
+    padding: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.PersonajePage h1 {
+    text-align: center;
+    color: #97ce4c;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-shadow: 0 0 10px rgba(151, 206, 76, 0.5);
+    letter-spacing: 2px;
+}
+
+.personajesGrid {
+    display: grid;
+    /* Las tarjetas serán más anchas, mínimo 320px, y se expandirán para llenar el espacio */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 3rem;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.5rem;
+    color: #97ce4c;
+    text-shadow: 0 0 10px rgba(151, 206, 76, 0.5);
+}
